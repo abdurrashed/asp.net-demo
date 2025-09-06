@@ -1,0 +1,80 @@
+[
+  {
+    "ContainingType": "ASP.NET.DEMO.API.Controllers.AddressBookController",
+    "Method": "Create",
+    "RelativePath": "SystemDefault/create-AddressBook",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "ASP.NET.DEMO.API.Models.DTOS.SystemConfig.AddressBook.DTOAddressBook",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ASP.NET.DEMO.API.Models.ApiResponse\u00601[[ASP.NET.DEMO.API.Models.DTOS.SystemConfig.AddressBook.DTOAddressBook, ASP.NET.DEMO.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ASP.NET.DEMO.API.Controllers.AddressBookController",
+    "Method": "GetAddressBooks",
+    "RelativePath": "SystemDefault/get-AddressBook-info",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "parent_id",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "type",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ASP.NET.DEMO.API.Models.ApiResponse\u00601[[System.Collections.Generic.List\u00601[[ASP.NET.DEMO.API.Models.DTOS.SystemConfig.AddressBook.DTOAddressBook, ASP.NET.DEMO.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ASP.NET.DEMO.API.Controllers.WeatherForecastController",
+    "Method": "Get",
+    "RelativePath": "WeatherForecast",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[ASP.NET.DEMO.API.WeatherForecast, ASP.NET.DEMO.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "GetWeatherForecast"
+  }
+]

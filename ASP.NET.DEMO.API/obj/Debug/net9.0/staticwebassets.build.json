@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "WuArF7gzdvw99ba6ywGKFQTT11XXJsjNAOL7zQcHPo4=",
+  "Source": "ASP.NET.DEMO.API",
+  "BasePath": "_content/ASP.NET.DEMO.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

@@ -1,0 +1,326 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\ASP.NET.DEMO.API\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{64A0C838-A19D-405B-9C1C-332E34B44FEC}|ASP.NET.DEMO.API\\ASP.NET.DEMO.API.csproj|e:\\asp.net.demo.api\\asp.net.demo.api\\controllers\\addressbookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64A0C838-A19D-405B-9C1C-332E34B44FEC}|ASP.NET.DEMO.API\\ASP.NET.DEMO.API.csproj|solutionrelative:asp.net.demo.api\\controllers\\addressbookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86D939F3-BD77-4520-BBEB-FCCD4F53BD29}|DEMO.RAZOR\\DEMO.RAZOR.csproj|e:\\asp.net.demo.api\\demo.razor\\pages\\addressbook.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{86D939F3-BD77-4520-BBEB-FCCD4F53BD29}|DEMO.RAZOR\\DEMO.RAZOR.csproj|solutionrelative:demo.razor\\pages\\addressbook.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86D939F3-BD77-4520-BBEB-FCCD4F53BD29}|DEMO.RAZOR\\DEMO.RAZOR.csproj|e:\\asp.net.demo.api\\demo.razor\\pages\\addressbook.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86D939F3-BD77-4520-BBEB-FCCD4F53BD29}|DEMO.RAZOR\\DEMO.RAZOR.csproj|solutionrelative:demo.razor\\pages\\addressbook.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86D939F3-BD77-4520-BBEB-FCCD4F53BD29}|DEMO.RAZOR\\DEMO.RAZOR.csproj|e:\\asp.net.demo.api\\demo.razor\\dto\\apiresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86D939F3-BD77-4520-BBEB-FCCD4F53BD29}|DEMO.RAZOR\\DEMO.RAZOR.csproj|solutionrelative:demo.razor\\dto\\apiresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64A0C838-A19D-405B-9C1C-332E34B44FEC}|ASP.NET.DEMO.API\\ASP.NET.DEMO.API.csproj|e:\\asp.net.demo.api\\asp.net.demo.api\\models\\dtos\\systemconfig\\addressbook\\dtoaddressbook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64A0C838-A19D-405B-9C1C-332E34B44FEC}|ASP.NET.DEMO.API\\ASP.NET.DEMO.API.csproj|solutionrelative:asp.net.demo.api\\models\\dtos\\systemconfig\\addressbook\\dtoaddressbook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86D939F3-BD77-4520-BBEB-FCCD4F53BD29}|DEMO.RAZOR\\DEMO.RAZOR.csproj|e:\\asp.net.demo.api\\demo.razor\\dto\\dtoaddressbook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86D939F3-BD77-4520-BBEB-FCCD4F53BD29}|DEMO.RAZOR\\DEMO.RAZOR.csproj|solutionrelative:demo.razor\\dto\\dtoaddressbook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86D939F3-BD77-4520-BBEB-FCCD4F53BD29}|DEMO.RAZOR\\DEMO.RAZOR.csproj|e:\\asp.net.demo.api\\demo.razor\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{86D939F3-BD77-4520-BBEB-FCCD4F53BD29}|DEMO.RAZOR\\DEMO.RAZOR.csproj|solutionrelative:demo.razor\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86D939F3-BD77-4520-BBEB-FCCD4F53BD29}|DEMO.RAZOR\\DEMO.RAZOR.csproj|e:\\asp.net.demo.api\\demo.razor\\enum\\addresstype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86D939F3-BD77-4520-BBEB-FCCD4F53BD29}|DEMO.RAZOR\\DEMO.RAZOR.csproj|solutionrelative:demo.razor\\enum\\addresstype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64A0C838-A19D-405B-9C1C-332E34B44FEC}|ASP.NET.DEMO.API\\ASP.NET.DEMO.API.csproj|e:\\asp.net.demo.api\\asp.net.demo.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64A0C838-A19D-405B-9C1C-332E34B44FEC}|ASP.NET.DEMO.API\\ASP.NET.DEMO.API.csproj|solutionrelative:asp.net.demo.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64A0C838-A19D-405B-9C1C-332E34B44FEC}|ASP.NET.DEMO.API\\ASP.NET.DEMO.API.csproj|e:\\asp.net.demo.api\\asp.net.demo.api\\models\\apiresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64A0C838-A19D-405B-9C1C-332E34B44FEC}|ASP.NET.DEMO.API\\ASP.NET.DEMO.API.csproj|solutionrelative:asp.net.demo.api\\models\\apiresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86D939F3-BD77-4520-BBEB-FCCD4F53BD29}|DEMO.RAZOR\\DEMO.RAZOR.csproj|e:\\asp.net.demo.api\\demo.razor\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86D939F3-BD77-4520-BBEB-FCCD4F53BD29}|DEMO.RAZOR\\DEMO.RAZOR.csproj|solutionrelative:demo.razor\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86D939F3-BD77-4520-BBEB-FCCD4F53BD29}|DEMO.RAZOR\\DEMO.RAZOR.csproj|e:\\asp.net.demo.api\\demo.razor\\pages\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{86D939F3-BD77-4520-BBEB-FCCD4F53BD29}|DEMO.RAZOR\\DEMO.RAZOR.csproj|solutionrelative:demo.razor\\pages\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64A0C838-A19D-405B-9C1C-332E34B44FEC}|ASP.NET.DEMO.API\\ASP.NET.DEMO.API.csproj|e:\\asp.net.demo.api\\asp.net.demo.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{64A0C838-A19D-405B-9C1C-332E34B44FEC}|ASP.NET.DEMO.API\\ASP.NET.DEMO.API.csproj|solutionrelative:asp.net.demo.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86D939F3-BD77-4520-BBEB-FCCD4F53BD29}|DEMO.RAZOR\\DEMO.RAZOR.csproj|e:\\asp.net.demo.api\\demo.razor\\pages\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{86D939F3-BD77-4520-BBEB-FCCD4F53BD29}|DEMO.RAZOR\\DEMO.RAZOR.csproj|solutionrelative:demo.razor\\pages\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64A0C838-A19D-405B-9C1C-332E34B44FEC}|ASP.NET.DEMO.API\\ASP.NET.DEMO.API.csproj|e:\\asp.net.demo.api\\asp.net.demo.api\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64A0C838-A19D-405B-9C1C-332E34B44FEC}|ASP.NET.DEMO.API\\ASP.NET.DEMO.API.csproj|solutionrelative:asp.net.demo.api\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64A0C838-A19D-405B-9C1C-332E34B44FEC}|ASP.NET.DEMO.API\\ASP.NET.DEMO.API.csproj|e:\\asp.net.demo.api\\asp.net.demo.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{64A0C838-A19D-405B-9C1C-332E34B44FEC}|ASP.NET.DEMO.API\\ASP.NET.DEMO.API.csproj|solutionrelative:asp.net.demo.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64A0C838-A19D-405B-9C1C-332E34B44FEC}|ASP.NET.DEMO.API\\ASP.NET.DEMO.API.csproj|e:\\asp.net.demo.api\\asp.net.demo.api\\asp.net.demo.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{64A0C838-A19D-405B-9C1C-332E34B44FEC}|ASP.NET.DEMO.API\\ASP.NET.DEMO.API.csproj|solutionrelative:asp.net.demo.api\\asp.net.demo.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64A0C838-A19D-405B-9C1C-332E34B44FEC}|ASP.NET.DEMO.API\\ASP.NET.DEMO.API.csproj|e:\\asp.net.demo.api\\asp.net.demo.api\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64A0C838-A19D-405B-9C1C-332E34B44FEC}|ASP.NET.DEMO.API\\ASP.NET.DEMO.API.csproj|solutionrelative:asp.net.demo.api\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 380,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AddressBook.cshtml.cs",
+              "DocumentMoniker": "E:\\ASP.NET.DEMO.API\\DEMO.RAZOR\\Pages\\AddressBook.cshtml.cs",
+              "RelativeDocumentMoniker": "DEMO.RAZOR\\Pages\\AddressBook.cshtml.cs",
+              "ToolTip": "E:\\ASP.NET.DEMO.API\\DEMO.RAZOR\\Pages\\AddressBook.cshtml.cs",
+              "RelativeToolTip": "DEMO.RAZOR\\Pages\\AddressBook.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFkAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-06T05:26:51.25Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DTOAddressBook.cs",
+              "DocumentMoniker": "E:\\ASP.NET.DEMO.API\\ASP.NET.DEMO.API\\Models\\DTOS\\SystemConfig\\AddressBook\\DTOAddressBook.cs",
+              "RelativeDocumentMoniker": "ASP.NET.DEMO.API\\Models\\DTOS\\SystemConfig\\AddressBook\\DTOAddressBook.cs",
+              "ToolTip": "E:\\ASP.NET.DEMO.API\\ASP.NET.DEMO.API\\Models\\DTOS\\SystemConfig\\AddressBook\\DTOAddressBook.cs",
+              "RelativeToolTip": "ASP.NET.DEMO.API\\Models\\DTOS\\SystemConfig\\AddressBook\\DTOAddressBook.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-06T04:17:18.976Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ApiResponse.cs",
+              "DocumentMoniker": "E:\\ASP.NET.DEMO.API\\DEMO.RAZOR\\DTO\\ApiResponse.cs",
+              "RelativeDocumentMoniker": "DEMO.RAZOR\\DTO\\ApiResponse.cs",
+              "ToolTip": "E:\\ASP.NET.DEMO.API\\DEMO.RAZOR\\DTO\\ApiResponse.cs",
+              "RelativeToolTip": "DEMO.RAZOR\\DTO\\ApiResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-06T05:31:17.834Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AddressBook.cshtml",
+              "DocumentMoniker": "E:\\ASP.NET.DEMO.API\\DEMO.RAZOR\\Pages\\AddressBook.cshtml",
+              "RelativeDocumentMoniker": "DEMO.RAZOR\\Pages\\AddressBook.cshtml",
+              "ToolTip": "E:\\ASP.NET.DEMO.API\\DEMO.RAZOR\\Pages\\AddressBook.cshtml",
+              "RelativeToolTip": "DEMO.RAZOR\\Pages\\AddressBook.cshtml",
+              "ViewState": "AgIAAP8AAAAAAAAAAAAAABkBAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-06T05:26:36.782Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AddressType.cs",
+              "DocumentMoniker": "E:\\ASP.NET.DEMO.API\\DEMO.RAZOR\\Enum\\AddressType.cs",
+              "RelativeDocumentMoniker": "DEMO.RAZOR\\Enum\\AddressType.cs",
+              "ToolTip": "E:\\ASP.NET.DEMO.API\\DEMO.RAZOR\\Enum\\AddressType.cs",
+              "RelativeToolTip": "DEMO.RAZOR\\Enum\\AddressType.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-06T05:24:41.997Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DTOAddressBook.cs",
+              "DocumentMoniker": "E:\\ASP.NET.DEMO.API\\DEMO.RAZOR\\DTO\\DTOAddressBook.cs",
+              "RelativeDocumentMoniker": "DEMO.RAZOR\\DTO\\DTOAddressBook.cs",
+              "ToolTip": "E:\\ASP.NET.DEMO.API\\DEMO.RAZOR\\DTO\\DTOAddressBook.cs",
+              "RelativeToolTip": "DEMO.RAZOR\\DTO\\DTOAddressBook.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-06T05:21:15.619Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AddressBookController.cs",
+              "DocumentMoniker": "E:\\ASP.NET.DEMO.API\\ASP.NET.DEMO.API\\Controllers\\AddressBookController.cs",
+              "RelativeDocumentMoniker": "ASP.NET.DEMO.API\\Controllers\\AddressBookController.cs",
+              "ToolTip": "E:\\ASP.NET.DEMO.API\\ASP.NET.DEMO.API\\Controllers\\AddressBookController.cs",
+              "RelativeToolTip": "ASP.NET.DEMO.API\\Controllers\\AddressBookController.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAxwCkAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-06T04:07:52.079Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "E:\\ASP.NET.DEMO.API\\DEMO.RAZOR\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "DEMO.RAZOR\\Properties\\launchSettings.json",
+              "ToolTip": "E:\\ASP.NET.DEMO.API\\DEMO.RAZOR\\Properties\\launchSettings.json",
+              "RelativeToolTip": "DEMO.RAZOR\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-09-06T07:30:36.031Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ApiResponse.cs",
+              "DocumentMoniker": "E:\\ASP.NET.DEMO.API\\ASP.NET.DEMO.API\\Models\\ApiResponse.cs",
+              "RelativeDocumentMoniker": "ASP.NET.DEMO.API\\Models\\ApiResponse.cs",
+              "ToolTip": "E:\\ASP.NET.DEMO.API\\ASP.NET.DEMO.API\\Models\\ApiResponse.cs",
+              "RelativeToolTip": "ASP.NET.DEMO.API\\Models\\ApiResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-06T04:14:26.943Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\ASP.NET.DEMO.API\\ASP.NET.DEMO.API\\Program.cs",
+              "RelativeDocumentMoniker": "ASP.NET.DEMO.API\\Program.cs",
+              "ToolTip": "E:\\ASP.NET.DEMO.API\\ASP.NET.DEMO.API\\Program.cs",
+              "RelativeToolTip": "ASP.NET.DEMO.API\\Program.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAwwCQAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-06T03:46:05.931Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\ASP.NET.DEMO.API\\DEMO.RAZOR\\Program.cs",
+              "RelativeDocumentMoniker": "DEMO.RAZOR\\Program.cs",
+              "ToolTip": "E:\\ASP.NET.DEMO.API\\DEMO.RAZOR\\Program.cs",
+              "RelativeToolTip": "DEMO.RAZOR\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-06T05:44:50.521Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "E:\\ASP.NET.DEMO.API\\DEMO.RAZOR\\Pages\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "DEMO.RAZOR\\Pages\\_ViewStart.cshtml",
+              "ToolTip": "E:\\ASP.NET.DEMO.API\\DEMO.RAZOR\\Pages\\_ViewStart.cshtml",
+              "RelativeToolTip": "DEMO.RAZOR\\Pages\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-06T05:26:57.22Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "E:\\ASP.NET.DEMO.API\\ASP.NET.DEMO.API\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "ASP.NET.DEMO.API\\Properties\\launchSettings.json",
+              "ToolTip": "E:\\ASP.NET.DEMO.API\\ASP.NET.DEMO.API\\Properties\\launchSettings.json",
+              "RelativeToolTip": "ASP.NET.DEMO.API\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-09-06T04:30:17.785Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "E:\\ASP.NET.DEMO.API\\DEMO.RAZOR\\Pages\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "DEMO.RAZOR\\Pages\\_ViewImports.cshtml",
+              "ToolTip": "E:\\ASP.NET.DEMO.API\\DEMO.RAZOR\\Pages\\_ViewImports.cshtml",
+              "RelativeToolTip": "DEMO.RAZOR\\Pages\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-06T05:26:55.119Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "E:\\ASP.NET.DEMO.API\\ASP.NET.DEMO.API\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "ASP.NET.DEMO.API\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "E:\\ASP.NET.DEMO.API\\ASP.NET.DEMO.API\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "ASP.NET.DEMO.API\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAoAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-06T04:10:31.375Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ASP.NET.DEMO.API",
+              "DocumentMoniker": "E:\\ASP.NET.DEMO.API\\ASP.NET.DEMO.API\\ASP.NET.DEMO.API.csproj",
+              "RelativeDocumentMoniker": "ASP.NET.DEMO.API\\ASP.NET.DEMO.API.csproj",
+              "ToolTip": "E:\\ASP.NET.DEMO.API\\ASP.NET.DEMO.API\\ASP.NET.DEMO.API.csproj",
+              "RelativeToolTip": "ASP.NET.DEMO.API\\ASP.NET.DEMO.API.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-09-06T03:51:27.261Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "E:\\ASP.NET.DEMO.API\\ASP.NET.DEMO.API\\appsettings.json",
+              "RelativeDocumentMoniker": "ASP.NET.DEMO.API\\appsettings.json",
+              "ToolTip": "E:\\ASP.NET.DEMO.API\\ASP.NET.DEMO.API\\appsettings.json",
+              "RelativeToolTip": "ASP.NET.DEMO.API\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-09-06T03:48:27.834Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "WeatherForecast.cs",
+              "DocumentMoniker": "E:\\ASP.NET.DEMO.API\\ASP.NET.DEMO.API\\WeatherForecast.cs",
+              "RelativeDocumentMoniker": "ASP.NET.DEMO.API\\WeatherForecast.cs",
+              "ToolTip": "E:\\ASP.NET.DEMO.API\\ASP.NET.DEMO.API\\WeatherForecast.cs",
+              "RelativeToolTip": "ASP.NET.DEMO.API\\WeatherForecast.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-06T03:47:14.591Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

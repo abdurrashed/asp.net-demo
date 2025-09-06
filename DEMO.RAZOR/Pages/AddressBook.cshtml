@@ -1,0 +1,317 @@
+﻿@page "/address-book"
+@model DEMO.RAZOR.Pages.AddressBookModel
+@{
+}
+<link href="https://cdn.materialdesignicons.com/6.6.96/css/materialdesignicons.min.css" rel="stylesheet">
+
+<div class="row">
+    <div class="col-12">
+        <div class="card">
+            <div class="card-body">
+                <div class="row mb-2">
+                    <!-- LEFT: Filter Form -->
+                    <div class="col-sm-8">
+                        <form method="get" class="row g-2">
+                            <div class="col-auto">
+                                <select class="form-control" asp-for="SelectedType" asp-items="@(new SelectList(Model.AddressList))">
+                                    <option value="">-- Select Type --</option>
+                                </select>
+                            </div>
+                            <div class="col-auto">
+                                <button type="submit" class="btn btn-sm btn-primary">
+                                    <i class="mdi mdi-magnify me-1"></i>Load Data
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+
+                    <!-- RIGHT: Add Button -->
+                    <div class="col-sm-4 text-end">
+                        <button type="button" class="btn btn-sm btn-danger waves-effect waves-light"
+                                data-bs-toggle="modal" data-bs-target="#addressBook-modal">
+                            <i class="mdi mdi-plus-circle me-1"></i>Add Address
+                        </button>
+                    </div>
+                </div>
+
+                @if (!string.IsNullOrEmpty(Model.ErrorMessage))
+                {
+                    <div class="alert alert-danger">@Model.ErrorMessage</div>
+                }
+
+                @if (TempData["Success"] != null)
+                {
+                    <div class="alert alert-success alert-dismissible fade show" role="alert">
+                        @TempData["Success"]
+                        <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+                    </div>
+                }
+
+                <div class="table-responsive">
+                    <table class="table table-centered table-striped table-sm" id="addressbook-datatable">
+                        <thead>
+                            <tr>
+                                <th>SL#</th>
+                                <th>Parent</th>
+                                <th>Address</th>
+                                <th>Alias</th>
+                                <th>Secondary</th>
+                                <th>Code</th>
+                                <th>Type</th>
+                                <th>Status</th>
+                                <th style="width:120px;">Action</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @{
+                                int i = 1;
+                                foreach (var item in Model.AddressBookList)
+                                {
+                                    <tr>
+                                        <td>@i</td>
+                                        <td>@item.parent_name</td>
+                                        <td>@item.address_name</td>
+                                        <td>@item.alias_name</td>
+                                        <td>@item.secondary_name</td>
+                                        <td>@item.code</td>
+                                        <td>@item.type</td>
+                                        <td>
+                                            <span class="badge bg-soft-@(item.is_active ? "success" : "danger") text-@(item.is_active ? "success" : "danger")">
+                                                @(item.is_active ? "Active" : "Inactive")
+                                            </span>
+                                        </td>
+                                        <td>
+                                            <a href="javascript:void(0);" class="btn btn-sm btn-primary edit-addressbook"
+                                               data-id="@item.address_id"
+                                               data-parent="@item.parent_id"
+                                               data-parent-name="@item.parent_name"
+                                               data-name="@item.address_name"
+                                               data-alias="@item.alias_name"
+                                               data-secondary="@item.secondary_name"
+                                               data-code="@item.code"
+                                               data-type="@item.type"
+                                               data-remarks="@item.remarks"
+                                               data-link="@item.link"
+                                               data-status="@(item.is_active ? "true" : "false")">
+                                                Edit
+                                            </a>
+                                            <a href="javascript:void(0);" class="btn btn-sm btn-danger delete-addressbook"
+                                               data-id="@item.address_id">
+                                                Delete
+                                            </a>
+                                        </td>
+                                    </tr>
+                                    i++;
+                                }
+                            }
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Add / Edit Modal -->
+<div class="modal fade" id="addressBook-modal" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header bg-light">
+                <h4 class="modal-title" id="addressBookModalLabel">Address Book</h4>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+
+            <div class="modal-body p-2">
+                <form asp-page-handler="SaveAddressBook" method="post" id="addressBookForm">
+                    <!-- Hidden Fields -->
+                    <input type="hidden" id="AddressId" asp-for="AddressBook.address_id" />
+                    <input type="hidden" id="ParentName" asp-for="AddressBook.parent_name" />
+
+                    <!-- Row 1: Type + Parent -->
+                    <div class="row">
+                        <div class="col-6">
+                            <label asp-for="AddressBook.type" class="form-label">Type<span class="text-danger">*</span></label>
+                            <select class="form-select form-select-sm" id="Type" asp-for="AddressBook.type" required>
+                                <option value="">-- Select Type --</option>
+                                @foreach (var type in Enum.GetValues(typeof(DEMO.RAZOR.Enum.AddressType)))
+                                {
+                                    <option value="@type">@type</option>
+                                }
+                            </select>
+                        </div>
+
+                        <div class="col-6">
+                            <label asp-for="AddressBook.parent_id" class="form-label">Parent<span class="text-danger">*</span></label>
+                            <select class="form-select form-select-sm" id="ParentId" asp-for="AddressBook.parent_id">
+                                <option value="">-- Select Parent --</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <!-- Row 2: Address Name + Alias -->
+                    <div class="row">
+                        <div class="col-6 ">
+                            <label asp-for="AddressBook.address_name" class="form-label">Address Name<span class="text-danger">*</span></label>
+                            <input type="text" class="form-control form-control-sm" id="AddressName" asp-for="AddressBook.address_name" required />
+                        </div>
+                        <div class="col-6 ">
+                            <label asp-for="AddressBook.alias_name" class="form-label">Alias Name</label>
+                            <input type="text" class="form-control form-control-sm" id="AliasName" asp-for="AddressBook.alias_name" />
+                        </div>
+                    </div>
+
+                    <!-- Row 3: Secondary + Code -->
+                    <div class="row">
+                        <div class="col-6">
+                            <label asp-for="AddressBook.secondary_name" class="form-label">Secondary Name</label>
+                            <input type="text" class="form-control form-control-sm" id="SecondaryName" asp-for="AddressBook.secondary_name" />
+                        </div>
+                        <div class="col-6">
+                            <label asp-for="AddressBook.code" class="form-label">Code</label>
+                            <input type="text" class="form-control form-control-sm" id="Code" asp-for="AddressBook.code" />
+                        </div>
+                    </div>
+
+                    <!-- Remarks + Link -->
+                    <div class="mb-1">
+                        <label asp-for="AddressBook.remarks" class="form-label">Remarks</label>
+                        <textarea class="form-control form-control-sm" id="Remarks" asp-for="AddressBook.remarks"></textarea>
+                    </div>
+                    <div class="mb-1">
+                        <label asp-for="AddressBook.link" class="form-label">Link</label>
+                        <input type="text" class="form-control form-control-sm" id="Link" asp-for="AddressBook.link" />
+                    </div>
+
+                    <!-- Active Checkbox -->
+                    <div class="form-check mb-1">
+                        <input type="checkbox" class="form-check-input" id="IsActive" asp-for="AddressBook.is_active" />
+                        <label class="form-check-label" for="IsActive">Active</label>
+                    </div>
+
+                    <div class="text-end">
+                        <button type="submit" class="btn btn-success btn-xs">Save</button>
+                        <button type="button" class="btn btn-danger btn-xs" data-bs-dismiss="modal">Cancel</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        $(function () {
+
+            // ---------- Function: Load Parent Dropdown ----------
+            function loadParentsByType(typeValue, selectedParentId = "", selectedParentName = "") {
+                const parentDropdown = $("#ParentId");
+                parentDropdown.empty().append('<option value="">-- Select Parent --</option>');
+
+                if (!typeValue) return;
+
+                let parentType=true;
+                switch (typeValue) {
+                    case "Country":
+                        parentType = null;
+                        break;
+                    case "Division":
+                        parentType = "Country";
+                        break;
+                    case "District":
+                        parentType = "Division";
+                        break;
+                    case "Upazila":
+                        parentType = "District";
+                        break;
+                    default:
+                        parentType = null;
+                }
+
+                if (!parentType) {
+                    parentDropdown.empty().append('<option value="">No Parent</option>');
+                    $("#ParentId").removeAttr("required");
+                    $("#ParentName").val("");
+                    return;
+                } else {
+                    $("#ParentId").attr("required", "required");
+                }
+
+                $.ajax({
+                    url: 'https://localhost:7282/SystemDefault/get-AddressBook-info',
+                    type: 'GET',
+                    data: { type: parentType },
+                    success: function (res) {
+                        res.data.forEach(function(item){
+                            // Edit case pre-select parent_name
+                            const selected = item.address_name == selectedParentName ? 'selected' : '';
+                            parentDropdown.append('<option value="' + item.address_id + '" data-name="' + item.address_name + '" ' + selected + '>' + item.address_name + '</option>');
+                        });
+
+                        // Hidden input set
+                        if(selectedParentName) {
+                            $("#ParentName").val(selectedParentName);
+                        } else {
+                            $("#ParentName").val(parentDropdown.find('option:selected').data('name') || "");
+                        }
+                    },
+                    error: function() {
+                        alert("Failed to load parent addresses.");
+                    }
+                });
+            }
+
+            // ---------- Update hidden ParentName when Parent dropdown changes ----------
+            $(document).on("change", "#ParentId", function () {
+                $("#ParentName").val($(this).find('option:selected').data("name") || "");
+            });
+
+            // ---------- Type dropdown change ----------
+            $("#Type").change(function() {
+                const typeValue = $(this).val();
+                loadParentsByType(typeValue);
+            });
+
+            // ---------- Add Button ----------
+            $('[data-bs-target="#addressBook-modal"]').on("click", function () {
+                $("#AddressId").val(0); // always 0 for Add
+                $("#Type").val("");
+                $("#ParentId").empty().append('<option value="">-- Select Parent --</option>');
+                $("#ParentName").val("");
+                $("#AddressName").val("");
+                $("#AliasName").val("");
+                $("#SecondaryName").val("");
+                $("#Code").val("");
+                $("#Remarks").val("");
+                $("#Link").val("");
+                $("#IsActive").prop("checked", true);
+            });
+
+            // ---------- Edit Button ----------
+            $(document).on("click", ".edit-addressbook", function () {
+                const typeValue = $(this).data("type");
+                const parentId = $(this).data("parent"); // hidden table
+                const parentName = $(this).data("parent-name"); // dropdown display
+
+                $("#AddressId").val($(this).data("id")); // hidden primary key
+                $("#Type").val(typeValue);
+
+                loadParentsByType(typeValue, parentId, parentName); // Load dropdown + pre-select
+
+                $("#AddressName").val($(this).data("name"));
+                $("#AliasName").val($(this).data("alias"));
+                $("#SecondaryName").val($(this).data("secondary"));
+                $("#Code").val($(this).data("code"));
+                $("#Remarks").val($(this).data("remarks"));
+                $("#Link").val($(this).data("link"));
+                let status = $(this).data("status");
+                $("#IsActive").prop("checked", status == "true");
+
+                $("#addressBookModalLabel").text("Update Address");
+                const modalEl = document.getElementById('addressBook-modal');
+                const modal = new bootstrap.Modal(modalEl);
+                modal.show();
+            });
+
+        });
+    </script>
+}

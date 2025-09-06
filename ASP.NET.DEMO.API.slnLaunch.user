@@ -1,0 +1,15 @@
+[
+  {
+    "Name": "New Profile",
+    "Projects": [
+      {
+        "Path": "ASP.NET.DEMO.API\\ASP.NET.DEMO.API.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "DEMO.RAZOR\\DEMO.RAZOR.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]
